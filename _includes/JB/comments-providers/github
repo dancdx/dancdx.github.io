@@ -1,0 +1,14 @@
+<div id="container"></div>
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: location.href, // 可选。默认为 location.href
+  owner: 'dancdx',
+  repo: 'dancdx.github.io',
+  oauth: {
+    client_id: 'c35f7a2c7ce23c4ea2ab',
+    client_secret: '134529e8618ff1e0cf800a1984789219e8cfd7a0',
+  },
+})
+gitment.render('container')
+</script>

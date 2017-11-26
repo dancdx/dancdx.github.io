@@ -3,7 +3,7 @@
 permalink: /:categories/:title.html
 
 safe: false
-gems: ["jekyll-paginate"]
+plugins: ["jekyll-paginate"]
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 paginate: 10
 encoding: utf-8
@@ -100,9 +100,9 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : duoshuo
-    duoshuo :
-      short_name : dancdx
+    provider : github
+  #  duoshuo :
+  #    short_name : dancdx
   #  disqus :
   #    short_name : dancdx
   #  livefyre :
@@ -114,6 +114,9 @@ JB :
   #    num_posts: 5
   #    width: 580
   #    colorscheme: light
+    github :
+      short_name: dancdx
+
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.

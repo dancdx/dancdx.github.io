@@ -4,7 +4,7 @@ title: "关于本博客的写作方式"
 keywords: ["模板"]
 description: "关于本博客的写作及使用方式"
 category: "other"
-tags: ["modle"]
+tags: ["blog"]
 ---
 {% include JB/setup %}
 

@@ -11,8 +11,8 @@
   {% include JB/comments-providers/intensedebate %}
 {% when "facebook" %}
   {% include JB/comments-providers/facebook %}
-{% when "custom" %}
-  {% include custom/comments %}
+{% when "github" %}
+  {% include JB/comments-providers/github %}
 {% endcase %}
 
 {% endif %}
